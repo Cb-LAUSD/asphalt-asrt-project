@@ -1,0 +1,100 @@
+import org.code.neighborhood.*;
+public class crossPainter extends MuralPainter{
+  public void paintCross1(String color, int size){
+    move();
+    move();
+    turnRight();
+    move();
+    move();
+    move();
+    move();
+    move();
+    paintLine(color, size);
+    turnLeft();
+    turnLeft();
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    turnLeft();
+    paintLine("BurlyWood", 3);
+    turnRight();
+    turnRight();
+    move();
+    move();
+    paintLine("BurlyWood", 3);
+  }
+  public void paintCross2(String color){
+    turnRight();
+    move();
+    move();
+    move();
+    move();
+    move();
+    turnLeft();
+    move();
+    move();
+    turnLeft();
+    move();
+    
+    paintLine("BurlyWood", 10);
+    turnRight();
+    move();
+    turnRight();
+    move();
+      paintLine("BurlyWood", 10);
+    turnLeft();
+    turnLeft();
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    turnRight();
+    paintLine("burlywood", 4);
+    turnRight();
+    move();
+    turnRight();
+    move();
+    paintLine("burlywood", 3);
+    move();
+    move();
+    paintLine("burlywood", 3);
+    turnRight();
+    move();
+    turnRight();
+    move();
+    paintLine("burlywood", 3);
+  }
+  public void paintCross3(){
+  move();
+  move();
+  move();
+  move();
+  move();
+  move();
+  turnRight();
+  move();
+    paintLine("burlywood", 8); 
+    turnLeft();
+    turnLeft();
+    move();
+    move(); 
+    move();
+    move();
+    move();
+    move();
+       turnLeft();
+    paintLine("BurlyWood", 3);
+    turnRight();
+    turnRight();
+    move();
+    move();
+    paintLine("BurlyWood", 4);
+}
+}
